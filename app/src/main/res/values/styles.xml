@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Widget.Theme.CoPIC_App.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+
+    </style>
+
+    <style name="navfont" >
+        <item name="fontFamily">@font/avenir_black</item>
+    </style>
+</resources>

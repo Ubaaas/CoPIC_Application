@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CoPIC</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">About</string>
+    <string name="title_notifications">Features</string>
+    <string name="title_FQAs">Help</string>
+    <string name="nfeatures">\nFEATURES</string>
+    <string name="features">FEATURES</string>
+    <string name="about">ABOUT</string>
+    <string name="boldCOPIC">Also, <b>CoPIC</b> creates an opportunity for future developers who would like to pursue implementing a convolutional neural network model to a mobile application. The developers constructed a step-by-step process for the creation of the CoPIC.</string>
+    <string name="hannah">CASTILLO, \nHannah Isabel C.</string>
+    <string name="culla">CULLA, \nRalph Ivan D.</string>
+    <string name="ebreo">EBREO, \nLeo F.</string>
+
+
+
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eedbbd"
+    tools:context=".MainActivity3">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="217dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginStart="-105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/roasted" />
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="217dp"
+        android:layout_height="252dp"
+        android:layout_marginEnd="-105dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/roasted" />
+
+    <TextView
+        android:id="@+id/classified"
+        android:layout_width="113dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/avenir_roman"
+        android:text="says"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/demoText"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/avenir_black"
+        android:text="OPEN YOUR CAMERA"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="288dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:background="#B80000"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/avenir_black"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classified"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/click_here"
+        android:layout_width="355dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/avenir_roman"
+        android:text="Tap the Result \nto Know More"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="103dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
+        android:background="#6f4323"
+        android:drawableBottom="@android:drawable/ic_menu_camera"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="109dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="#c9ad7a"
+        android:fontFamily="@font/avenir_black"
+        android:onClick="clickexit"
+        android:text="Exit"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/confidences"
+        android:layout_width="124dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="176dp"
+        android:fontFamily="@font/avenir_black"
+        android:text="Predictions :"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/confi"
+        android:layout_width="336dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="@font/avenir_roman"
+        android:lineSpacingMultiplier="1.3"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="288dp"
+        android:layout_height="244dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dark"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/says"
+        android:layout_width="88dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="252dp"
+        android:fontFamily="@font/avenir_roman"
+        android:text="says"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/phones"
+        android:layout_width="416dp"
+        android:layout_height="420dp"
+        android:visibility="gone"
+        android:layout_marginTop="276dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/phones" />
+
+    <ImageView
+        android:id="@+id/cman"
+        android:layout_width="278dp"
+        android:layout_height="208dp"
+        android:layout_marginEnd="-117dp"
+        android:layout_marginBottom="60dp"
+        android:rotation="-35"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/result_man" />
+
+    <ImageView
+        android:id="@+id/cpic"
+        android:layout_width="156dp"
+        android:layout_height="148dp"
+        android:layout_marginBottom="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dark" />
+</androidx.constraintlayout.widget.ConstraintLayout>

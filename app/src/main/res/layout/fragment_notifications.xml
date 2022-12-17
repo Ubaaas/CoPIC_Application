@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingBottom="57dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6b3e01"
+        tools:context=".ui.notifications.NotificationsFragment">
+
+        <TextView
+            android:id="@+id/text_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="95dp"
+            android:layout_height="115dp"
+            android:src="@drawable/logo3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="214dp"
+            android:layout_height="396dp"
+            android:layout_marginTop="-77dp"
+            android:layout_marginEnd="-100dp"
+            android:rotation="-32"
+            android:src="@drawable/g_features"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.962"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="178dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="124dp"
+            android:background="@drawable/rounded"
+            android:fontFamily="@font/avenir_black"
+            android:padding="10dp"
+            android:shadowColor="#000"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="1"
+            android:text="@string/features"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="290dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="240dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/avenir_roman"
+            android:justificationMode="inter_word"
+            android:text="       is an application that is capable of identifying and classifying defects of a roasted coffee bean using image processing methods via smartphones. The features of the system are the following:"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="114dp"
+            android:layout_height="101dp"
+            android:layout_marginStart="-12dp"
+            android:layout_marginTop="196dp"
+            android:src="@drawable/logo2"
+            app:layout_constraintEnd_toStartOf="@+id/textView5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="290dp"
+            android:layout_height="271dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="344dp"
+            android:fontFamily="@font/forum"
+            android:justificationMode="inter_word"
+            android:text="                  The software application includes a navigation for a smooth and efficient user experience. The navigation consists of different fragments, such as; Home page access, About access, Features access, and Help access. Every fragment has its own functionalities. Home page access, will showcase the main user interface of the application, the about access will feature the developers as well as the purpose of the software application, features access are the capabilities of the software application, lastly is the help access that includes instructions on how to use CoPIC for the users."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="291dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="704dp"
+            android:fontFamily="@font/forum"
+            android:justificationMode="inter_word"
+            android:text="                       This project is a mobile application wherein it requires the use of the camera of a smartphone in order to capture the roasted coffee bean and classify the type and defects of it."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="291dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="1040dp"
+            android:fontFamily="@font/forum"
+            android:justificationMode="inter_word"
+            android:text="                                                   This project requires the usage of cameras via smartphones. The application  notifies the user about the limited usage of it by providing rules and policy that signifies the consumption of their cameras will only be activated if the user is using the application."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="291dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1184dp"
+            android:fontFamily="@font/forum"
+            android:justificationMode="inter_word"
+            android:text="                              This includes the termination of application and recapturing."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.467"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="292dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="812dp"
+            android:fontFamily="@font/forum"
+            android:justificationMode="inter_word"
+            android:text="              The software application shows a prompt that will access the camera of the user’s smartphones. The permission is required such that it is needed for capturing images and to avoid invalid actions of camera usage."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="290dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="940dp"
+            android:fontFamily="@font/forum"
+            android:justificationMode="inter_word"
+            android:text="            This consists of an image that is captured by the user, this includes the findings of what kind of image the user has captured, specifically roasted coffee beans."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.474"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="940dp"
+            android:layout_marginEnd="242dp"
+            android:fontFamily="@font/forum"
+            android:text="Results."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView14"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="704dp"
+            android:fontFamily="@font/forum"
+            android:text="External Interfaces."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView10"
+            app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="290dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="612dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/forum"
+            android:justificationMode="inter_word"
+            android:text="              The application uses a series of algorithms that will identify and classify the type of roasted coffee bean defects for the system’s familiarization."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="344dp"
+            android:fontFamily="@font/forum"
+            android:textColor="@color/white"
+            android:text="Navigation."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.151"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="812dp"
+            android:fontFamily="@font/forum"
+            android:text="Permission."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.143"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1040dp"
+            android:fontFamily="@font/forum"
+            android:text="Regulatory/Compliance Requirements."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1184dp"
+            android:fontFamily="@font/forum"
+            android:text="Other Features."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="612dp"
+            android:fontFamily="@font/forum"
+            android:text="Algorithms."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.151"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="174dp"
+            android:layout_height="479dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="-120dp"
+            android:src="@drawable/roasted"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="174dp"
+            android:layout_height="479dp"
+            android:layout_marginTop="563dp"
+            android:layout_marginEnd="-150dp"
+            android:src="@drawable/roasted"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.904"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="174dp"
+            android:layout_height="479dp"
+            android:layout_marginTop="376dp"
+            android:layout_marginStart="-113dp"
+            android:src="@drawable/roasted"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="174dp"
+            android:layout_height="479dp"
+            android:layout_marginStart="-173dp"
+            android:layout_marginTop="950dp"
+            android:src="@drawable/roasted"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="215dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/start_cup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/avenir_black"
+            android:text="Ⓒ  CoPIC 2022"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
