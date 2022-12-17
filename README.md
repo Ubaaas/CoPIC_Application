@@ -13,4 +13,6 @@ Specifically, this study aims:
   b. Reliability</br>
   c. Usability</br>
   
+  
+You may download the Application by visiting this link https://github.com/Ubaaas/CoPIC_Application/releases/tag/Copic_APK_v1
 
