@@ -2,7 +2,6 @@
 
 CoPIC: MOBILE-BASED ROASTED COFFEE BEANS DEFECT CLASSIFICATION USING IMAGE PROCESSING
 
-Objectives of the Study</br>
 The main objective of this project is to implement a convolutional neural network model in a mobile application that is capable of classifying defects using smartphones
 
 Specifically, this study aims:
